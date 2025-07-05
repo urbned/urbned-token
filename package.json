@@ -1,0 +1,26 @@
+{
+  "name": "urbned-token",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.9",
+    "@nomicfoundation/hardhat-ethers": "^3.0.9",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.13",
+    "@nomicfoundation/hardhat-toolbox": "^6.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.14",
+    "@openzeppelin/contracts": "^4.9.3",
+    "dotenv": "^17.0.1",
+    "hardhat": "^2.25.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@quicknode/sdk": "^2.4.2"
+  }
+}
